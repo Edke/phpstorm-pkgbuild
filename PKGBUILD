@@ -12,6 +12,7 @@ url="http://www.jetbrains.com/phpstorm/"
 license=('custom')
 depends=('java-runtime>=6')
 conflicts=('phpstorm')
+install="${pkgname}.install"
 source=(http://download.jetbrains.com/webide/PhpStorm-EAP-$pkgver.tar.gz)
 md5sums=('b42ae3954a6593a4870e72cc77732808')
 
