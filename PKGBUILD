@@ -12,7 +12,6 @@ arch=('i686' 'x86_64')
 url="http://www.jetbrains.com/phpstorm/"
 license=('custom')
 depends=('java-runtime>=6')
-conflicts=('phpstorm-eap')
 source=(http://download.jetbrains.com/webide/PhpStorm-${pkgver}.tar.gz)
 md5sums=('3c85588bb0b89ff565c64b38da1eddc0')
 
