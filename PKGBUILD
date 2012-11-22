@@ -45,7 +45,7 @@ Terminal=false
 StartupNotify=true
 StartupWMClass=jetbrains-phpstorm
 EOF
-) > ${startdir}/{$pkgname}.desktop
+) > ${startdir}/${pkgname}.desktop
 
   mkdir -p ${pkgdir}/usr/bin/ || return 1
   mkdir -p ${pkgdir}/usr/share/applications/ || return 1
